@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gradient-text {
+  @apply text-transparent bg-clip-text text-3xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-5xl font-abril-fatface;
+  background: linear-gradient(0deg, #4d39fe, #50d7e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.p-text {
+  font-family: 'Abril Fatface', cursive;
+  @apply bg-clip-text  text-lg sm:text-lg md:text-lg lg:text-xl xl:text-3xl mb-10;
+}
+
+
+
+

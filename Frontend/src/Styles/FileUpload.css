@@ -1,0 +1,27 @@
+
+.file-upload-input {
+    @apply flex items-center w-[300px] p-2 border-[1.4px] border-[#22a8f3] rounded-md m-2;
+  }
+
+.file-upload-container {
+    @apply flex justify-center w-full max-w-screen-xl;
+  }
+  
+  .file-upload-section {
+    @apply grid mb-8 justify-center;
+  
+  
+    @apply lg:grid-cols-3;
+  
+
+    @apply md:grid-cols-2;
+  
+
+    @apply sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3;
+  }
+
+
+  .submit-button{
+    @apply bg-gradient-to-r from-teal-400 to-blue-600 text-white font-bold py-3 px-16 rounded-xl mt-4;
+  }
+  

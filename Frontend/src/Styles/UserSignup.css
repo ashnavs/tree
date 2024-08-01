@@ -1,0 +1,31 @@
+.signup-container {
+    @apply flex items-center justify-center min-h-screen bg-gray-100;
+  }
+  
+  .signup-content {
+    @apply flex bg-white p-8 rounded-lg shadow-md max-w-4xl w-full;
+  }
+  
+  .signup-form {
+    @apply flex-1;
+  }
+  
+  .signup-title {
+    @apply text-2xl font-semibold mb-6 text-center;
+  }
+  
+  .signup-input {
+    @apply mb-4 p-3 border border-gray-300 rounded-md w-full;
+  }
+  
+  .signup-button {
+    @apply bg-blue-500 text-white py-2 px-4 rounded-md w-full hover:bg-blue-600;
+  }
+  
+  .signup-image-container {
+    @apply flex-1 flex items-center justify-center;
+  }
+  
+  .signup-image {
+    @apply max-w-full h-auto;
+  }

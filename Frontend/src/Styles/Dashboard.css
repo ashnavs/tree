@@ -1,0 +1,160 @@
+.admin-dashboard {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .sidebar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .sidebar-nav {
+    flex-grow: 1;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .nav-icon {
+    margin-right: 10px;
+  }
+  
+  .sidebar-logout {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    color: #333;
+  }
+  
+  .sidebar-logout:hover {
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f1f3f5;
+  }
+  
+  .search-bar {
+    display: flex;
+    margin-bottom: 20px;
+    width: fit-content;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search-button {
+    padding: 10px 20px;
+    border: 1px solid #ced4da;
+    border-left: none;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .user-table {
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .table-header {
+    display: flex;
+    background-color: #e9ecef;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .header-cell {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .table-body {
+    padding: 10px;
+  }
+  
+  .table-row {
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table-cell {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .toggle-switch {
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .pagination span {
+    margin: 0 10px;
+  }
+
+  .action-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 9px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
